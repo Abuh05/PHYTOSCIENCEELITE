@@ -2372,14 +2372,14 @@ margin-right: 500px;
     font-size: 25px;
   }
 }
-
+@media (max-width: 545px) {
+  .move{
+    margin-top: 620px !important;
+  }
+}
 @media (max-width: 414px) {
   .banner-content h1 {
     font-size: 30px;
-   
-  }
-  .break{
-    margin-bottom: 200px !important ;
   }
   .unordered-list {
     margin-bottom: 70px;
