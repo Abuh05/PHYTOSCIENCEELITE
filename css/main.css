@@ -20,7 +20,9 @@
   font-weight: 500 !important;
   font-size: 17px !important;
 }
-
+strong{
+  color: red;
+}
 
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
@@ -2026,6 +2028,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100%;
   }
+  .down{
+    margin-bottom: -300px !important;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -2337,7 +2342,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-content {
   text-align: center;
-  margin-top: -200px;
+  margin-top: -160px !important;
 }
 .me{
 margin-right: 500px;
@@ -2373,9 +2378,9 @@ margin-right: 500px;
     font-size: 25px;
   }
 }
-@media (min-width: 500px) {
+@media (min-width: 477px) {
   .move{
-    margin-top: 650px !important;
+    margin-top: 610px !important;
   }
 }
 @media (max-width: 414px) {
